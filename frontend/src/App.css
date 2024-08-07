@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.main {
+
+    height: 98vh;
+    width: 95% !important;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+
+    height: 90vh;
+    width: 95%;
+
+
+}
+
+.container .task {
+
+    width: 90%;
+    margin: auto;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+
+
+}
+
+form {
+
+    width: 90%;
+    margin: 5px auto;
+    height: 82vh;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.percentage {
+
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+.percentage #text {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.416);
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+.percentage #percent {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.416);
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+.select {
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+.items {
+
+    margin-top: 10px !important;
+    height: auto;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.items .search {
+
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.items .search input {
+    width: 30%;
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+
+}
+
+
+.item_one #two {
+
+    margin-left: 20px;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.btn {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px !important;
+    font-family: "Outfit", sans-serif;
+    height: 10vh;
+}
+
+.btn button {
+    height: 50px;
+    width: 30%;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+.search input {
+
+    border: none;
+    border: 1px solid gray;
+    border-left: none;
+    outline: none;
+    font-family: "Outfit", sans-serif;
+
+}
+
+#se {
+    height: 36.5px;
+    border-radius: 2px;
+    width: 30px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid gray;
+    border-right: none;
+    font-family: "Outfit", sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+    margin: 5px 0;
+    font-size: 16px;
+    width: 30%;
+
+
+}
+
+.custom-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .checkbox-indicator {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: background-color 0.3s;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+.checkbox-indicator {
+    background-color: orange;
+    border-color: orange;
+}
+
+.custom-checkbox .checkbox-indicator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    transition: transform 0.3s;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-checkbox-one {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+    margin: 5px 0;
+    font-size: 16px;
+    width: 35%;
+
+}
+
+.custom-checkbox-one input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox-one .checkbox-indicator {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: background-color 0.3s;
+}
+
+.custom-checkbox-one input[type="checkbox"]:checked+.checkbox-indicator {
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+.custom-checkbox-one .checkbox-indicator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    transition: transform 0.3s;
+}
+
+.custom-checkbox-one input[type="checkbox"]:checked+.checkbox-indicator::after {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
